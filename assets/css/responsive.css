@@ -1,0 +1,20 @@
+/* 미디어 쿼리 */
+/* 노트북, 데스크탑 */
+@media (max-width: 1300px) {
+  .container {
+    width: 96%;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 960px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
