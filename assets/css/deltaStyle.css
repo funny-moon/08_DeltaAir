@@ -8,11 +8,14 @@
   margin-top: 50px;
 }
 #footer {
+  background-color: #001932;
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 50px;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
-  /* background-color: #ffffff73; */
 }
 
 /* header */
@@ -252,4 +255,57 @@ ul.fee li a span {
   height: 3px;
   background-color: #ba0707;
   margin: 5px 0;
+}
+
+/* footer */
+#footer h1 {
+  font-size: 40px;
+  font-weight: 400;
+
+  text-align: center;
+}
+.popular_menu {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+.popular_menu span {
+  padding: 0 20px;
+  font-weight: 400;
+}
+.popular_menu span:first-child {
+  color: #999;
+  font-weight: 800;
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.firstMenu {
+  color: #999;
+}
+.footer_menu li {
+  margin-bottom: 15px;
+}
+.firstMenu .fa-angle-down {
+  display: none;
+}
+
+.delta_desc {
+  font-size: 13px;
+  text-align: center;
+  color: #999;
+  margin-top: 80px;
+}
+.delta_desc li {
+  margin-bottom: 10px;
+  line-height: 23px;
+  word-break: keep-all;
+}
+.delta_desc li span {
+  color: #fff;
 }
