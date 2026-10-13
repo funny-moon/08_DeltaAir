@@ -8,6 +8,12 @@ $(window).scroll(function () {
   } else {
     $("#header").removeClass("active");
   }
+
+  if (scrollTop >= 800) {
+    $(".top").addClass("show");
+  } else {
+    $(".top").removeClass("show");
+  }
 });
 
 // 모바일 메뉴

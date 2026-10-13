@@ -410,3 +410,17 @@ ul.footer_sns i {
 ul.footer_sns span {
   padding: 0 3px;
 }
+
+.top {
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  color: #ba0707;
+  font-size: 40px;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.top.show {
+  opacity: 1;
+}

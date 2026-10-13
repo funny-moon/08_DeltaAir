@@ -90,3 +90,8 @@ p {
   line-height: 0;
   text-indent: -9999px;
 }
+
+/* 스크롤 스무스 효과 */
+html {
+  scroll-behavior: smooth;
+}
