@@ -7,6 +7,12 @@
     <script src="https://kit.fontawesome.com/fb27592f06.js" crossorigin="anonymous"></script>
     <!-- 스와이퍼 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
+
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="assets/img/favicon.svg" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+
     <!-- 스타일시트 -->
     <link rel="stylesheet" href="assets/css/font.css" />
     <link rel="stylesheet" href="assets/css/reset.css" />
@@ -16,6 +22,33 @@
     <title>Delta Air</title>
   </head>
   <body>
+    <!-- 모바일 네비 시작 -->
+    <div id="mNav">
+      <button><i class="fa-solid fa-bars"></i></button>
+      <nav>
+        <ul>
+          <li><a href="#">예약</a></li>
+          <li><a href="#">체크인</a></li>
+          <li><a href="#">나의항공</a></li>
+          <li><a href="#">항공편</a></li>
+          <li><a href="#">여행정보</a></li>
+          <li><a href="#">마일즈</a></li>
+          <li><a href="#">도움말</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">로그인</a></li>
+          <li>
+            <a href="#"><i class="fa-solid fa-bell"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- 모바일 네비 끝 -->
     <header id="header">
       <div class="container header_inner">
         <div class="logo">
@@ -386,18 +419,10 @@
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".hero", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-    </script>
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
