@@ -132,15 +132,20 @@
 #banner .banner_txt .more {
   width: 180px;
   height: 45px;
-  background-color: #750202;
+  background-color: #ba0707;
   color: #fff;
 
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-}
 
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#banner .banner_txt .more:hover {
+  background-color: #750202;
+}
 /* banner_menu */
 #banner_menu {
   background-color: #001932;
@@ -308,4 +313,30 @@ ul.fee li a span {
 }
 .delta_desc li span {
   color: #fff;
+}
+
+ul.footer_sns {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+ul.footer_sns li {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+}
+ul.footer_sns li:last-child {
+  border: 0;
+}
+ul.footer_sns i {
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+  padding: 0 3px;
+}
+ul.footer_sns span {
+  padding: 0 3px;
 }

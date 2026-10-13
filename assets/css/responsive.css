@@ -84,6 +84,9 @@
   .container {
     padding: 0 40px;
   }
+  .menu_inner {
+    padding: 0;
+  }
   #banner .banner_txt {
     text-align: center;
     left: 0;
@@ -154,6 +157,22 @@
 
   .delta_desc {
     margin-top: 20px;
+  }
+  ul.footer_sns {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  ul.footer_sns li {
+    flex: none;
+  }
+  ul.footer_sns li:nth-child(1) {
+    width: 100%;
+    border: 0;
+    margin-bottom: 15px;
+  }
+  ul.footer_sns li:nth-child(2),
+  ul.footer_sns li:nth-child(3) {
+    width: 50%;
   }
 }
 
